@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Documentary | Robert Something</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="v-header container">
+        <!-- VIDEO -->
+        <div class="fullscreen-video-wrap">
+            <video playsinline autoplay muted loop>
+                <source src="./assests/videbitch.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header-overlay"></div>
+        <!-- NAVIGATION MENU -->
+        <div class="main-navigation">
+            <nav class="main-nav">
+                <div class="nav-items">
+                    <a href="#home">what is grow</a>
+                    <a href="#testimonials">meet robert</a>
+                </div>
+                <div class="icons">
+                    <img src="./assests/f_logo_RGB-White_72.png" alt="facebook image">
+                    <img src="./assests/instagram-icon.png" alt="facebook image">
+                    <img src="./assests/Twitter_Social_Icon_Circle_White.png" alt="facebook image">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!------------- MAIN SECTION HOMEPAGE ----------->
+
+    <main>
+        <section id="home">
+            <div class="main-section-div">
+                <img src="./assests/Asset 3.svg" alt="grow text">
+                <h1 class="main-heading">It's your time to be a pro</h1>
+                <hr class="line">
+                <h3 class="tagline">Get inspired by one of our former member</h3>
+                <a href="#robert" class="main-btn">meet robert</a>
+                <img class="arrow" src="./assests/arrow.png" alt="arrow">
+            </div>
+        </section>
+    </main>
+
+    <!-- ABOUT GROW SECTION -->
+    <section id="grow">
+        <hr class="hr1">
+        <div class="grow-content">
+            <h4 class="what_is_grow">What is Grow?</h4>
+            <p class="grow_text">Grow is a place, where you're sourrended<br>
+                with like-minded people, and you can<br>
+                improve yourself and your business idea<br>
+                in a supportive environment.</p>
+        </div>
+        <hr class="hr2">
+    </section>
+
+    <section id="robert">
+        <div class="full-image"></div>
+        <h2 class="robert-heading rellax" data-rellax-speed="3">Meet Robert</h2>
+    </section>
+
+
+    <!------------- VIDEO SECTION HOMEPAGE ----------->
+    <div id="videos">
+        <p class="video-paragraph-one">Robert is a former student of GROW. He just finished his studies at Innovation
+            and
+            Entrepreneurship
+            at Business Academy Aarhus. His story can be an inspiration for all the students at the Academy, how they
+            can
+            benefit from joining the
+            GROW and start their own company.</p>
+
+        <div class="video_container">
+            <video class="video" loop muted controls>
+                <source src="backvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="video-paragraph-two">Robert is one of the co-founders of a company called Kanpla. It is an app, which
+            helps
+            for the schools to reduce food waste, create a responsible production and ensure energy for the whole school
+            day
+            with a healthy meal.</p>
+
+        <div class="video-container">
+            <video class="video" loop muted controls>
+                <source src="backvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <!-- BENEFITS SECTION -->
+    <article id="benefits">
+        <h2>What do you get from GROW?</h2>
+        <div class="benefits-container">
+            <div class="support card">
+                <img src="./assests/undraw1.svg" class="illustration" alt="support card image">
+                <h4>Support</h4>
+                <h6>Meet new people</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed ducimus beatae hic dolorem earum
+                    atque harum odio libero nam.</p>
+            </div>
+            <div class="network card">
+                <img src="./assests/undraw3.svg" class="illustration" alt="network card image">
+                <h4>Network</h4>
+                <h6>Meet new people</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed ducimus beatae hic dolorem earum
+                    atque harum odio libero nam.</p>
+            </div>
+            <div class="workshops card">
+                <img src="./assests/undraw3.svg" class="illustration" alt="workshops card image">
+                <h4>Workshops</h4>
+                <h6>Meet new people</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed ducimus beatae hic dolorem earum
+                    atque harum odio libero nam.</p>
+            </div>
+            <div class="space card">
+                <img src="./assests/undraw4.svg" class="illustration" alt="working space card image">
+                <h4>Working space</h4>
+                <h6>Meet new people</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed ducimus beatae hic dolorem earum
+                    atque harum odio libero nam.</p>
+            </div>
+        </div>
+    </article>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+        integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
