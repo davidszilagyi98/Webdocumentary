@@ -12,9 +12,10 @@ body {
     line-height: 1.5;
     overflow-x: hidden;
     color: #333;
-} 
+}
 
-.fab, .fas {
+.fab,
+.fas {
     font-size: 2.5em;
     padding: 10px;
 }
@@ -48,9 +49,9 @@ body {
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top:0;
-    left:0;
-    background: rgba(0,0,0,1);
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 1);
     z-index: 1;
     opacity: 0.6;
 }
@@ -161,7 +162,7 @@ body {
 }
 
 a.main-btn {
-    background-color: #3B4FF0;
+    background-color: #83AFB4;
     padding: 12px 48px;
     border-radius: 30px;
     color: #fff;
@@ -171,13 +172,18 @@ a.main-btn {
 
 a.main-btn:hover {
     background-color: #fff;
-    color: #3B4FF0;
-    border: 1px solid #3B4FF0;
+    color: #83AFB4;
+    border: 1px solid #83AFB4;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .main-heading span {
@@ -196,29 +202,29 @@ a.main-btn:hover {
     margin: 100px 0;
 }
 
-.hr1{
+.hr1 {
     margin-bottom: 100px;
     animation: line forwards ease 1s;
 }
 
-.hr2{
+.hr2 {
     animation: line forwards ease 1s;
     float: right;
 }
 
-.what_is_grow{
+.what_is_grow {
     font-size: 50px;
     margin-left: 25%;
     font-weight: bold;
 
     opacity: 0;
     transform: translateY(20px);
-    transition:  1s all ease-in;
-    
+    transition: 1s all ease-in;
+
 }
 
 /* Maybe here we can us JS when this text is appear */
-.grow_text{
+.grow_text {
     text-align: left;
     margin: 20px;
     font-size: 35px;
@@ -242,19 +248,24 @@ a.main-btn:hover {
     position: relative;
 }
 
+
 .full-image {
     width: 100vw;
     height: 80vh;
-    background-image: url("./assests/man.jpg");
+    background-image: url("./assests/robert.jpg");
     background-attachment: fixed;
 }
 
 .robert-heading {
     color: #fff;
     position: absolute;
-    left: 10%;
-    bottom: 10%;
-    font-size: 3em;
+    right: 14%;
+    bottom: -70%;
+    font-size: 3.5em;
+    text-shadow: 4px 2px 1px rgba(150, 150, 150, 1);
+    background-color: rgba(134, 136, 138, 80%);
+    padding: 20px;
+    border: 1px solid white;
 }
 
 
@@ -300,7 +311,7 @@ a.main-btn:hover {
 }
 
 
-.video-container, 
+.video-container,
 .video-container2 {
     display: table;
     width: auto;
@@ -313,7 +324,7 @@ a.main-btn:hover {
     background-image: url(assests/play.png);
     background-repeat: no-repeat;
     width: 20%;
-    position: absolute;   
+    position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -325,25 +336,54 @@ a.main-btn:hover {
 
 
 #playpause,
-#playpause2:hover{
+#playpause2:hover {
     cursor: pointer;
 }
+
+
+
+/* APP VIDEO SECTION STYLING */
+
+#app_video {
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.app_video_text {
+    font-size: 35px;
+    line-height: 1.6;
+    z-index: 1;
+    position: absolute;
+    width: 35%;
+    margin: 15%;
+    color: #fff;
+    
+}
+
+.mockupvideo_app{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
 
 
 
 /* BENEFITS SECTION STYLING */
 #benefits {
     background-color: #fff;
-    position: absolute;
     padding: 96px 0;
     color: #333;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #benefits h2 {
     color: #333;
     text-align: center;
     font-size: 3em;
-    margin-bottom: 72px;
+    margin-bottom: 100px;
 }
 
 .benefits-container {
@@ -359,10 +399,14 @@ a.main-btn:hover {
     flex-direction: column;
 }
 
+.h4 {
+    margin-top: 40px;
+}
+
 .benefits-container .card img {
-    width: 200px;
-    height: 140px;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
 }
 
 .benefits-container .card h4 {
@@ -387,13 +431,62 @@ a.main-btn:hover {
     transition: 0.2s all ease-in-out;
 }
 
+
+
+/* FOOTER SECTION STYLING */
+
+#page_footer {
+    background-color: #83AFB4;
+    width: 100%;
+    height: 300px;
+}
+
+.footer_container {
+    width: 35%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.some_container {
+    display: block;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.footer_heading {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.some_image {
+    width: 40px;
+    margin: 10px;
+}
+
+.location_footer {
+    margin-top: 70px;
+}
+
+.location_icon {
+    width: 90px;
+}
+
+
+
+
 /* KEYFRAMES */
 @keyframes line {
     from {
         width: 0%;
     }
+
     to {
         width: 46%;
     }
 }
+
+
 
