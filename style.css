@@ -57,12 +57,12 @@ body {
 
 /* MAIN NAVIGATION MENU AND CONTENT STYLING */
 .main-navigation {
-    z-index: 4;
+    z-index: 2;
     width: 100%;
-    /* position: static;
     top:0;
-    left:0; */
-    /* background: rgba(24, 23, 0, 0.8); */
+    left:0;
+    /* background-color: rgba(0,0,0,0.5); */
+    height: 9%;
 }
 
 .main-nav {
@@ -71,6 +71,7 @@ body {
     max-width: 1366px;
     height: 5em;
     margin: 0 auto;
+    z-index: 3;
 }
 
 .nav-items {
@@ -94,10 +95,9 @@ body {
     color: #888;
 }
 
-.icons {
+.logo {
+    width: 8%;
     display: flex;
-    width: 10%;
-    justify-content: space-between;
     align-items: center;
 }
 
