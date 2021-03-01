@@ -1,7 +1,7 @@
 // USING RELLAX
 let rellax = new Rellax('.rellax');
 
-function scrollAppear() {
+function scrollAppears() {
     const introText = document.querySelector('.what_is_grow');
     const introParagraph = document.querySelector('.grow_text');
     const introPosition = introText.getBoundingClientRect().top;
@@ -16,7 +16,7 @@ function scrollAppear() {
     }
 }
 
-window.addEventListener('scroll', scrollAppear);
+window.addEventListener('scroll', scrollAppears);
 
 // ANIMATE IMAGES WITH FOR LOOP
 const illustrations = document.querySelectorAll('.illustration');
@@ -59,7 +59,6 @@ function scrollAppear2() {
 window.addEventListener('scroll', scrollAppear2);
 
 
-
 //VIDEO 
 
 let myVideo = document.getElementById('myvideo');
@@ -81,16 +80,17 @@ playpause.addEventListener('click', playPause);
 
 
 let myVideo2 = document.getElementById('myvideo2');
-myVideo2.controls = true;
 
 function playPause2() {
     if (myVideo2.paused) {
         myVideo2.play();
         playpause2.style.opacity = '0';
+        myVideo2.controls = true;
     }
     else {
         myVideo2.pause();
         playpause2.style.opacity = '1';
+        myVideo2.controls = false;
     }
 }
 
