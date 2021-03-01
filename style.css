@@ -257,14 +257,35 @@ a.main-btn:hover {
     font-size: 3em;
 }
 
+
+
+/*---- VIDEO TEXT FADE ----*/
+
+.text_fade,
+.text_fade2 {
+    width: 60%;
+    font-family: monospace;
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s all ease-in-out;
+}
+
+.text_appear,
+.text_appear2 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
 /* VIDEO SECTION STYLING */
 #videos {
-    z-index: 13;
     background-color: #fff;
+    z-index: 11;
 }
 
 .video-paragraph-one,
-.video-paragraph-two{
+.video-paragraph-two {
     width: 60%;
     font-size: 1.7rem;
     line-height: 1.6;
@@ -273,10 +294,41 @@ a.main-btn:hover {
     padding-bottom: 80px;
 }
 
-.video{
+.video {
     display: block;
     margin: 0 auto;
 }
+
+
+.video-container, 
+.video-container2 {
+    display: table;
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+#playpause,
+#playpause2 {
+    background-image: url(assests/play.png);
+    background-repeat: no-repeat;
+    width: 20%;
+    position: absolute;   
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+}
+
+
+#playpause,
+#playpause2:hover{
+    cursor: pointer;
+}
+
 
 
 /* BENEFITS SECTION STYLING */
