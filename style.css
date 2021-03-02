@@ -96,9 +96,9 @@ body {
     color: #888;
 }
 
-.logo {
-    width: 8%;
+.icons {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
