@@ -275,7 +275,6 @@ a.main-btn:hover {
 .text_fade,
 .text_fade2 {
     width: 60%;
-    font-family: monospace;
     font-size: 1.5rem;
     opacity: 0;
     transform: translateY(40px);
