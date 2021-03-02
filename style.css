@@ -260,7 +260,7 @@ a.main-btn:hover {
     color: #fff;
     position: absolute;
     right: 14%;
-    bottom: -70%;
+    bottom: -35%;
     font-size: 3.5em;
     text-shadow: 4px 2px 1px rgba(150, 150, 150, 1);
     background-color: rgba(134, 136, 138, 80%);
@@ -347,6 +347,8 @@ a.main-btn:hover {
     background-color: #fff;
     margin: 0 auto;
     padding-top: 150px;
+    display: flex;
+    align-items:center;
 }
 
 .app_video_text {
@@ -355,8 +357,8 @@ a.main-btn:hover {
     z-index: 1;
     position: absolute;
     width: 35%;
-    margin: 15%;
     color: #fff;
+    margin-left: 13%;
     
 }
 
@@ -441,7 +443,7 @@ a.main-btn:hover {
 }
 
 .footer_container {
-    width: 35%;
+    width: 40%;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
