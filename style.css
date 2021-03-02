@@ -227,14 +227,25 @@ a.main-btn:hover {
 .grow_text {
     text-align: left;
     margin: 20px;
-    font-size: 35px;
+    font-size: 24px;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 25%;
+    width: 50%;
 
     opacity: 0;
     transform: translateY(20px);
     transition: 1s all ease-in;
+}
+
+.grow_link {
+    color: #83AFB4;
+}
+
+.grow_link:hover {
+    cursor: pointer;
+    background-color: #83AFB4;
+    color: white;
 }
 
 .what_is_grow_appear {
@@ -352,7 +363,7 @@ a.main-btn:hover {
 }
 
 .app_video_text {
-    font-size: 35px;
+    font-size: 32px;
     line-height: 1.6;
     z-index: 1;
     position: absolute;
