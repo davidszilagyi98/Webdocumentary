@@ -58,7 +58,7 @@ body {
 
 /* MAIN NAVIGATION MENU AND CONTENT STYLING */
 .main-navigation {
-    z-index: 2;
+    z-index: 50;
     width: 100%;
     top:0;
     left:0;
@@ -72,7 +72,6 @@ body {
     max-width: 1366px;
     height: 5em;
     margin: 0 auto;
-    z-index: 3;
 }
 
 .nav-items {
@@ -91,7 +90,6 @@ body {
 }
 
 .nav-items a:hover {
-    z-index: 20;
     cursor: pointer;
     color: #888;
 }
@@ -114,7 +112,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    z-index: 300;
+    z-index: 30;
 }
 
 #home .arrow {
